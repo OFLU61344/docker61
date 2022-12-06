@@ -1,10 +1,20 @@
 version: "3"
 
 services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "6132:5432"
+    environment:
+      POSTGRES_DB: trabzon_db
+      POSTGRES_USER: ofluiso
+      POSTGRES_PASSWORD: ofluiso
   web:
     build: ./docker/nginx/
-    ports:
-     - "6262:80"
+    working_dir: /app
     volumes:
-     - .:/usr/share/nginx/html
+      - ./:/app
+    ports:
+      - "6161:80"
     
