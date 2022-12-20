@@ -1,7 +1,5 @@
 # docker61
 
-oflu ismail
-
 Docker Nginx Kurulumu 
 - Dockerfile incelenecek 
 - Docker Compose incelenecek
