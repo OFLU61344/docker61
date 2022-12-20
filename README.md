@@ -1,6 +1,6 @@
 # docker61
 
-git test
+oflu ismail
 
 Docker Nginx Kurulumu 
 - Dockerfile incelenecek 
