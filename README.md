@@ -1,5 +1,7 @@
 # docker61
 
+git test
+
 Docker Nginx Kurulumu 
 - Dockerfile incelenecek 
 - Docker Compose incelenecek
