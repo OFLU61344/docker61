@@ -1,6 +1,6 @@
 # docker61
 
-Docker Nginx Kurulumu.
+Docker Nginx Kurulumu. (bitti)
 - Dockerfile incelenecek.  (tamamlandı)
 - Docker Compose incelenecek.    (tamamlandı)
 - trabzon.com hostdosyasından local bilgisayara yönlendirilecek.   (tamamlandı)
