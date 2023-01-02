@@ -1,4 +1,4 @@
-Docker Nginx Kurulumu. (bitti)
+Docker Nginx Kurulumu.
 
 Dockerfile incelenecek.
 
