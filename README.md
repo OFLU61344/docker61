@@ -13,24 +13,4 @@ Docker Nginx Kurulumu.
 -docker-compose.yml dosyasına postgresql database servisi eklenecek portu 6132 olacak.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+bu kadar
