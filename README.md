@@ -10,7 +10,4 @@ Docker Nginx Kurulumu.
 
 -trabzon.com:6161 için docker üzerinden vhost ayarı nginx ayarı yapılacak.
 
--docker-compose.yml dosyasına postgresql database servisi eklenecek portu 6132 olacak.
-
-
-bu kadar
+-docker-compose.yml dosyasına postgresql database servisi eklenecek portu 6132 olacak
