@@ -18,8 +18,7 @@ Docker imajını komut satırından aşağıdaki gibi gönderebilirsiniz:
 -   docker tag <url_of_docker_registry>/image_name:image_tag
 -   docker login -u username -p paswword <url_of_docker_registry>
 -   docker push <url_of_docker_registry>/image_name:image_tag
-
-2. Push docker image through jenkins:
+-   
 docker imajını Jenkins aracılığı ile push'layabilirsiniz
 
 Download CloudBees Docker Build and Publish plugin.
