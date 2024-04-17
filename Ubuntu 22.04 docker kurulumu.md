@@ -31,3 +31,23 @@ apt-cache policy docker-ce
 ````
 
 Docker'ın sürüm numarası farklı olsa da çıktıyı şu şekilde göreceksiniz:
+````
+docker-ce:
+  Installed: (none)
+  Candidate: 5:20.10.14~3-0~ubuntu-jammy
+  Version table:
+     5:20.10.14~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+     5:20.10.13~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+````
+
+Son olarak Docker'ı yükleyin:
+````
+sudo apt install docker-ce
+````
+
+Docker şimdi kurulmalı, arka plan programı başlatılmalı ve süreç önyükleme sırasında başlatılmalıdır. Çalıştığını kontrol edin:
+````
+sudo systemctl status docker
+````
