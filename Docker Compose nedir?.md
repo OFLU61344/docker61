@@ -55,3 +55,66 @@ docker-compose up -d
 ./run_tests
 
 docker-compose down
+
+
+**Docker Compose Komutları**
+
+**1.** docker compose up -d : **docker-compose.yml dosyasında yazdığımız servisler için containerları oluşturur ve başlatır.**
+
+**2.** docker compose down : **dosyada yazılmış ve up komutuyla başlatılmış containerları durdurur ve kaldırır.**
+
+**3.** docker compose build : **dosyada yazılmış containerları build etmek için kullanılır.**
+
+**4.** docker compose config : **compose dosyasını görüntüler.**
+
+**5.** docker compose images : **Dosyada yazılmış containerların kullandıkları imageları gösterir.**
+
+**6.** docker compose start : **Oluşturulan containerları başlatır.**
+
+**7.** docker compose stop : **Çalışan containerları durdurur.**
+
+**8.** docker compose rm : **Durdurulan containerları siler.**
+
+**9.** docker compose top : **Çalışan processleri listeler.**
+
+**10.** docker-compose restart : **Tüm servisleri yeniden başlatır.**
+
+ **11.** docker-compose restart <servis_adı> : **Belirli bir servisi yeniden başlatır.**
+
+**12.** docker-compose up <servis_adı1> <servis_adı2> : **Birden fazla servisi yeniden başlatır.**
+
+**13.** docker-compose stop <servis_adı> : **Servisi durdurur.**
+
+**14.** docker-compose stop : **Tüm servisleri durdurur**
+
+**15.** docker-compose rm <servis_adı> : **Servisi siler.**
+
+**16.** docker-compose rm : **Tüm servisleri siler.**
+
+**17.** docker-compose logs <servis_adı> : **Servis loglarını görüntüler.**
+
+**18.**  docker-compose restart <servis_adı> : **Belirli bir servisi yeniden başlatır.**
+
+**19.** docker-compose stop <servis_adı> : **Belirli bir servisin konteynerlarını durdurma.**
+
+**20.** docker-compose ps : **Konteynerların durumunu görüntüleme:**
+
+**21.** docker inspect $(docker-compose ps -q) | grep IPAddress : **Konteynerların IP adreslerini görüntüleme:**
+
+**22.** docker-compose export : **Dışa aktarma (export) işlemi:**
+
+**23.** docker-compose config > docker-compose.yml : **Çevrimdışı kullanım için YAML dosyası oluşturma:**
+
+**24.** docker-compose pull : **Servis bağımlılıklarını yeniden yükleme:**
+
+**25.** docker-compose config : **Docker Compose dosyasının doğruluğunu kontrol etme:** 
+
+**26.** docker-compose build : **Docker Compose dosyasını yeniden yapılandırma:**
+
+**27.** docker-compose down : **Tüm konteynerları durdurma ve kaldırma:**
+
+**28.** docker-compose logs -f <servis_adı> : **Belirli bir servisin günlüğünü canlı olarak takip etme:**
+
+**29.** docker-compose ps <servis_adı> : **Belirli bir servisin detaylı durumunu görüntüleme**
+
+**30.** docker-compose exec <servis_adı> <_komut_> : **Belirli bir servisin özel bir komutunu çalıştırma:** 
