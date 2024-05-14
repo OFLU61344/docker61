@@ -1,4 +1,4 @@
-Docker Nginx Kurulumu✓
+-Docker Nginx Kurulumu✓
 
 -Dockerfile incelenecek✓
 
