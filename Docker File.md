@@ -3,7 +3,7 @@
 Docker file basit bir metin dosyasıdır. Dockerfile uygulama imajlarını oluşturmak için kullanılır.
 Docker file gerekli işletim sistemi, kurulucak araçlar, database, uygulamanın çalışması için gerekli dosyalar ve kütüphaneleri içeren dosyadır. 
 
-## Docker file nasıl oluşturulur?**
+## Docker file nasıl oluşturulur?
 ### Docker file oluşturmanın çeşitli yolları vardır. Bunlar sırasıyla:
 
 RUN: Belirtilen komutları image içerisinde çalıştırır.  
