@@ -63,11 +63,9 @@ Baya hayat kurtarır, özellikle database containerlarında.
 
 ## Ekstra Notlarım
 
-- `docker ps` → çalışan container'ları gösterir  
-- `docker ps -a` → çalışan + durmuş tüm containerları listeler  
-- `docker logs` → container loglarını görmenizi sağlar  
-- `docker-compose` → birden fazla containerı tek bir dosyada yönetmey  
+- `docker ps` - çalışan container'ları gösterir  
+- `docker ps -a` - çalışan + durmuş tüm containerları listeler  
+- `docker logs` - container loglarını görmenizi sağlar  
+- `docker-compose` - birden fazla containerı tek bir dosyada yönetmey  
 
 ---
-
-Biraz karışık oldu belki ama iş görür 😉
