@@ -1,7 +1,6 @@
 # Docker Komutları Hakkında Kısa Bişeyler
 
-Docker'la çalışırken sık kullanılan bazı komutları buraya not aldım. Hem kendime hatırlatma olur hem de belki bi gün lazım olur dedim.
-
+sık kullanılan bazı komutları buraya not aldım. Hem kendime hatırlatma olur.
 ---
 
 ## `docker pull`
